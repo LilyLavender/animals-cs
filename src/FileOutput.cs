@@ -13,7 +13,7 @@ namespace AnimalsCs
             FileName = fileName;
             try
             {
-                Writer = new StreamWriter(fileName);
+                Writer = new StreamWriter(fileName, true);
             }
             catch (FileNotFoundException e)
             {
